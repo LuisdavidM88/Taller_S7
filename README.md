@@ -41,8 +41,11 @@ Incluye:
 
 ## 📂 Estructura del proyecto
 
-
----
+```
+├── Avenger.java
+├── Equipo.java
+└── Ventana.java
+```
 
 ## 🧩 Descripción de las clases
 
@@ -66,15 +69,8 @@ Administra un `ArrayList<Avenger>`:
 
 ### 🪟 Ventana
 Interfaz gráfica del sistema:
-- Manejo de eventos con ActionListeners anónimos  
+- Manejo de eventos con ActionListeners   
 - Método `llenarJList()` para actualizar la vista  
 - Campos de texto, botones, sliders y áreas de reporte  
 
 ---
-
-## ▶️ Ejecución
-
-Compilar:
-
-```bash
-javac *.java
